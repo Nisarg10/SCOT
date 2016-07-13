@@ -1,0 +1,48 @@
+.nav-wrapper{
+	float:left;
+	min-width: 470px;
+	margin: 22px 0 0 47px;
+}
+.nav-main{
+	float:left;
+	clear:both;
+}
+.nav-main ul{
+	float:left;
+	display:block;
+	font-size:22px;
+}
+.nav-main ul li{
+	display:inline;
+	color:#237dac;
+}
+.nav-main ul li a{
+	color: #fff;
+	margin: 0 14px 0 10px;
+}
+.nav-main ul li a:hover{
+	color:#056495;
+}
+.nav-main ul li:after{
+	content: "*";
+	font-size: 20px;
+}
+.nav-main ul li:last-child:after{
+	content: "";
+}
+
+@font-face
+{
+font-family: Bebas Neue;
+src: url('../css/fonts/BebasNeue-webfont.ttf');
+}
+
+.nav-main ul li a {
+	white-space: nowrap;
+        font-family: 'Bebas Neue';
+	text-transform: uppercase;
+	font-weight: normal;
+	font-style: normal;
+	text-shadow: 0 0 1px rgba(0,0,0,0.01);
+	text-decoration: none;
+}

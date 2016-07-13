@@ -1,0 +1,64 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#bodyColor {
+    /* background: #ddd; */
+}
+
+#h1Size {
+    margin:0;
+    padding:0;
+}
+#containerLayoutMain {
+    min-height:100%;
+    position:relative;
+}
+#header {
+    width:100%;
+}
+
+#body {
+    margin-top: 144px;
+    padding:10px;
+    padding-bottom:36px;   /* Height of the footer */
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:20px;   /* Height of the footer */
+}
+#widh{
+    height: 144px;
+    width:100%;
+}
+#wid{
+    height: 36px;
+    width:100%;
+}
+#symbolScot{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+#DataBaseTables {
+    position: absolute;
+    top: 105px;
+    left: 170px;
+    height: 30px;
+    width: 200px;
+}
+#Details{
+    position: absolute;
+    top: 105px;
+    left: 1020px;
+    height: 30px;
+    width: 80px;
+}
+#widhAdminHome{
+    height: 99px;
+    width:100%;
+}

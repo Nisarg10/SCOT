@@ -1,0 +1,15 @@
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://directwebremoting.org/schema/dwr30.dtd">  
+
+<dwr>
+    <allow>
+        <convert converter="bean" match="com.scot.bean.TableBean">
+            <param name="include" value="department_id,department_name,institute_id,institute_name,degree_id,degree_name,semester_id,sem_no,div_id,div_name"></param>
+        </convert>       
+        <create creator="new" javascript="timetableAjax">
+            <param name="class" value="com.scot.dao.UserDao"/>
+        </create>
+    </allow>
+    
+</dwr>
